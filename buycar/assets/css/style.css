@@ -1,0 +1,29 @@
+.cards{
+    font-family: 'Poppins';
+    width: 1250px;
+    height: 480px;
+    background: #D09E52;
+    color: #FFFFFF;
+}
+
+.card{
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.card__info{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 24px;
+}
+
+input{
+    border-radius: 40px;
+    border: none;
+    font-size: 30px;
+}
